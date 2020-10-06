@@ -182,6 +182,7 @@ $(function(){
   total_price = Number(onigiri_price)+Number(bento_price)+Number(bread_price)+Number(sweet_bread_price)+Number(sandwich_price)+Number(salad_soup_price)+Number(fry_price)+Number(dessert_price);
   $('#item-price').val(total_price);
   $('#item-price1').text(total_price);
+  $('#table_total_price').text(total_price);
   ////kcal用
 
   onigiri_kcal =  $('#kcal-onigiri').text();
@@ -196,6 +197,7 @@ $(function(){
   total_kcal = Number(onigiri_kcal)+Number(bento_kcal)+Number(bread_kcal)+Number(sweet_bread_kcal)+Number(sandwich_kcal)+Number(salad_soup_kcal)+Number(fry_kcal)+Number(dessert_kcal);
   $('#sum-kcal').val(total_kcal);
   $('#sum-kcal1').text(total_kcal);
+  $('#table_total_kcal').text(total_kcal);
 
   ////protain用
 
